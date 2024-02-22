@@ -7,6 +7,7 @@ import TransitionTypes from './components/TransitionTypes';
 import Variants from './components/Variants';
 import Counter from './components/counter';
 import Counter2 from './components/counter2';
+import ScrollReveal from './components/Box';
 
 const App = () => {
   return (
@@ -18,7 +19,8 @@ const App = () => {
       {/* <TransitionTypes /> */}
       {/* <Variants /> */}
       {/* <Counter /> */}
-      <Counter2 value={122444} />
+      {/* <Counter2 value={122444} /> */}
+      <ScrollReveal />
     </div>
   );
 };
